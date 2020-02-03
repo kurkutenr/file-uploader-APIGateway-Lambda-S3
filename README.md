@@ -16,7 +16,9 @@ https://docs.aws.amazon.com/lambda/latest/dg/lambda-go-how-to-create-deployment-
 
 
 #How to build a package for lambda function
+
 ~GOOS=linux go build main.go
+
 ~zip file-handler.zip main
 
 If need any help? shoot me a mail.
