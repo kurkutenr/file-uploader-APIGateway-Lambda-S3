@@ -32,7 +32,7 @@ func handler(request events.APIGatewayProxyRequest) (events.APIGatewayProxyRespo
 	filename := pathParameters["filename"]
 
 	// provide a path where file will be stored in s3
-	key := fmt.Sprintf("folderName/%s/%s/%s", path1, filename)
+	key := fmt.Sprintf("folderName/%s/%s", path1, filename)
 	body, err := base64.StdEncoding.DecodeString(request.Body)
 
 	// upload file to s3
