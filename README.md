@@ -1,7 +1,9 @@
 # file-uploader-APIGateway-Lambda-S3
-This is excersice to upload files to s3 using APIGateway and lambda functions.
-This supports for small file uploads. -
-API Gateway support 10MB and lambda 6MB.
+This is small exercise to upload files to s3 using APIGateway and lambda function.
+This supports for small file uploads. 
+Size upload supported by aws max-
+API Gateway - 10MB 
+lambda function - 6MB.
 
 This works for binary file uploads.
 
