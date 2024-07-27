@@ -1,4 +1,4 @@
-# file-uploader-APIGateway-Lambda-S3
+# File Uploader Via APIGateway and Lambda-S3
 This is small exercise to upload files to s3 using APIGateway and lambda function.
 This supports for small file uploads. 
 Size upload supported by aws max-
